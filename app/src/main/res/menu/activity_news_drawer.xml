@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_society"
+            android:title="@string/society" />
+        <item
+            android:id="@+id/nav_county"
+            android:title ="@string/county" />
+        <item
+            android:id="@+id/nav_international"
+            android:title="@string/international" />
+        <item
+            android:id="@+id/nav_fun"
+            android:title="@string/fun" />
+        <item
+            android:id="@+id/nav_sport"
+            android:title="@string/sport" />
+        <item
+            android:id="@+id/nav_nba"
+            android:title="@string/nba" />
+        <item
+            android:id="@+id/nav_football"
+            android:title="@string/football" />
+        <item
+            android:id="@+id/nav_technology"
+            android:title="@string/technology" />
+        <item
+            android:id="@+id/nav_work"
+            android:title="@string/work" />
+        <item
+            android:id="@+id/nav_apple"
+            android:title="@string/apple" />
+        <item
+            android:id="@+id/nav_military"
+            android:title="@string/military" />
+        <item
+            android:id="@+id/nav_internet"
+            android:title="@string/internet" />
+        <item
+            android:id="@+id/nav_travel"
+            android:title="@string/travel" />
+        <item
+            android:id="@+id/nav_health"
+            android:title="@string/health" />
+        <item
+            android:id="@+id/nav_strange"
+            android:title="@string/strange" />
+        <item
+            android:id="@+id/nav_beauty"
+            android:title="@string/beauty" />
+        <item
+            android:id="@+id/nav_vr"
+            android:title="@string/vr" />
+        <item
+            android:id="@+id/nav_it"
+            android:title="@string/it" />
+    </group>
+</menu>
