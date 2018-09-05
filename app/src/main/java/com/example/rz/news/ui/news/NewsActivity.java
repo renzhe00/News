@@ -1,10 +1,8 @@
-package com.example.rz.news;
+package com.example.rz.news.ui.news;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.view.View;
@@ -19,8 +17,12 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.rz.news.gson.News;
-import com.example.rz.news.gson.NewsList;
+import com.example.rz.news.R;
+import com.example.rz.news.Summary;
+import com.example.rz.news.SummaryAdapter;
+import com.example.rz.news.gson.news.News;
+import com.example.rz.news.gson.news.NewsList;
+import com.example.rz.news.ui.weather.MainActivity;
 import com.example.rz.news.utils.HttpUtil;
 import com.example.rz.news.utils.Utility;
 
@@ -415,8 +417,8 @@ public class NewsActivity extends AppCompatActivity
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 break;
             case R.id.action_settings:
-                Toast.makeText(NewsActivity.this, "Settings Testing",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(NewsActivity.this, MainActivity.class);
+                startActivity(intent);
             default:
         }
         return true;

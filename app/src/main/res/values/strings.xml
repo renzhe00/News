@@ -5,7 +5,7 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="weather">天气</string>
     <string name="society">社会新闻</string>
     <string name="county">国内新闻</string>
     <string name="international">国际新闻</string>

@@ -1,6 +1,5 @@
-package com.example.rz.news.gson;
+package com.example.rz.news.gson.news;
 
-import com.example.rz.news.gson.News;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
